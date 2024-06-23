@@ -67,6 +67,46 @@ CSS(Scss) (main.scss)(_colors.scss)
 +          color: $white-color;
 +           color: $main-color;
 ---
+HEADER
+---
++     header.hero-img {
++         position:relative;
++         height:100vh;
++         backgroung-image: url("../img/hero-small.jpeg");
++         background-size: cover;
++         background-position: center;
+
+ !! Problemy ze wsparciem np: Safarii !!
++         background-attachment: fixed;
+  
++          color: $white;
++         z-index: 0;    #CIEŃ(1)
++          h1 {
++             text-transform: uppercase;
++         }
++      }
+
++     .hero-shadow {
++        position: absolute;
++        top: 0;
++        left: 0;
++        width: 100%;
++        height: 100%;
++        background-color: rgb(0,0,0,.8);
++        z-index: -5;   #CIEŃ(1)
++     }
+WYŚRODKOWANIE TEKSTU NA STRONIE (domyślnie jest flex-direction row !!)
++     .hero-text {
++        display: flex;
++        justyfy-content: center;
++        align-items: center;
++        flex-direction: column    #Trzeba dodać by wyśrodkować tekst
++        height: 100%;
+      }
+ZAMIANA KOLORU GAMERS
++        .blue-text {
++        color: $main.color;
++    }
 
 ===
 JS (script.js)
