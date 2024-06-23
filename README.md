@@ -56,6 +56,7 @@ CSS(Scss) (main.scss)(_colors.scss)
                     
 +                        .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
 +                         color: #039dff;
++                         z-index:5;       #Zapobiega przykrywaniu nawigacji
                           }
                       }
 +  (_colors.scss)
