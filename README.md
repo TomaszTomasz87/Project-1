@@ -122,4 +122,4 @@ MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung 
 ===
 HTML
 ....
-+      dodaję text-center      <div class="hero-text text-center">
++      dodaję text-center      <div class="hero-text text-center">  🔶 Lub w SCSS dodaje text-align: center   wyjdzie na to samo 🔶 
