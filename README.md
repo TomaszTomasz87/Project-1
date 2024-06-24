@@ -115,8 +115,13 @@ ZAMIANA KOLORU GAMERS
 ===
 JS (script.js)
 ---
-
-
++     dodaje do index.html 🔶 <script src="./js/script.js"></script> 🔶
++     Zamiast 'click' daję DOMContentLoader'            🔶 document.addEventListener('DOMContentLoaded', function () {🔶
++    	  trzyma moją nawigację                            🔶    const nav = document.querySelector('.navbar') 🔶
+scss
++     dodaję .shadow-bg {
++    	background-color: rgba(0,0,0,.8);
++        }
 ===
 MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung Galaxy S20 Ultra✅
 ===
@@ -135,3 +140,5 @@ SCSS
 +		p{
 +			font-size: 20px;
 +		}
+
+
