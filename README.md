@@ -96,7 +96,7 @@ HEADER
 +        background-color: rgb(0,0,0,.8);
 +        z-index: -5;   #CIEŃ(1)
 +     }
-WYŚRODKOWANIE TEKSTU NA STRONIE (domyślnie jest flex-direction row !!)
+WYŚRODKOWANIE TEKSTU NA STRONIE (domyślnie jest flex-direction row ⚠️)
 +     .hero-text {
 +        display: flex;
 +        justyfy-content: center;
@@ -114,4 +114,6 @@ JS (script.js)
 ---
 
 
+===
+MOBILE - CORECT 📱iPhone 5/SE ✅ Samsung Galaxy S8+📱✅ iPadPro📱✅ 
 ===
