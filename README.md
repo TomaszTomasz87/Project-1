@@ -41,9 +41,7 @@ HTML (index.html)
 https://fontawesome.com/icons/bars?f=classic&s=solid
 
 ➖                   <span class="navbar-toggler-icon"></span>
-
 ➕                   <i class="fa-solid fa-bars"></i>
-
 ➕               <i class="fa-solid fa-headset"></i>
 
 ➖ Navbar - zaminana nazwy na ikonę i dodaję nazwę PROGAMERS
