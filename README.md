@@ -120,7 +120,7 @@ JS (script.js)
 +    	  trzyma moją nawigację                            🔶    const nav = document.querySelector('.navbar') 🔶
 scss
 +     dodaję .shadow-bg {
-+    	background-color: rgba(0,0,0,.8);
++    	background-color: rgba(0,0,0,.9);
 +        }
 ===
 MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung Galaxy S20 Ultra✅
