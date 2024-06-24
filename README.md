@@ -25,11 +25,11 @@ Bootstap (v5.3)
 ---
 Navbar
 https://getbootstrap.com/docs/5.3/components/navbar/
-+ position-sticky top-0
-+ navbar-nav ms-auto
-- fluid
-- bg-body-tertiary
--                    <li class="nav-item">
+➕ position-sticky top-0
+➕ navbar-nav ms-auto
+➖ fluid
+➖ bg-body-tertiary
+➖                    <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
 ---
@@ -39,75 +39,76 @@ https://getbootstrap.com/docs/5.3/components/navbar/
 HTML (index.html)
 ---
 https://fontawesome.com/icons/bars?f=classic&s=solid
--                   <span class="navbar-toggler-icon"></span>
-+                   <i class="fa-solid fa-bars"></i>
-+               <i class="fa-solid fa-headset"></i>
-- Navbar - zaminana nazwy na ikonę i dodaję nazwę PROGAMERS
-+  dodanie dodatkowych nav-link (o nas; portfolio; cena; zespół; osiągnięcia; kontakt)
+➖                   <span class="navbar-toggler-icon"></span>
+➕                   <i class="fa-solid fa-bars"></i>
+➕               <i class="fa-solid fa-headset"></i>
+➖ Navbar - zaminana nazwy na ikonę i dodaję nazwę PROGAMERS
+➕  dodanie dodatkowych nav-link (o nas; portfolio; cena; zespół; osiągnięcia; kontakt)
 ---
 
 ===
 CSS(Scss) (main.scss)(_colors.scss)
 ---
-+                     nav {
-+                       text-transform : uppercase;
-+                       .nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-brand, .fa-bars {
+➕                     nav {
+➕                       text-transform : uppercase;
+➕                       .nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-brand, .fa-bars {
                             color: #fff;
                     
-+                        .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-+                         color: #039dff;
-+                         z-index:5;       #Zapobiega przykrywaniu nawigacji
+➕                        .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+➕                         color: #039dff;
+➕                         z-index:5;       #Zapobiega przykrywaniu nawigacji
                           }
                       }
-+  (_colors.scss)
-+        $main-color: #039dff;
-          $white-color: #fff;
+_colors.scss
+➕        $main-color: #039dff;
+➕         $white-color: #fff;
 
-+  (main.scss)
-+  @use './colors' as *;
-+          color: $white-color;
-+           color: $main-color;
+main.scss
+---
+➕      @use './colors' as *;
+➕         color: $white-color;
+➕          color: $main-color;
 ---
 HEADER
 ---
-+     header.hero-img {
-+         position:relative;
-+         height:100vh;
-+         backgroung-image: url("../img/hero-small.jpeg");
-+         background-size: cover;
-+         background-position: center;
+➕    header.hero-img {
+➕        position:relative;
+➕        height:100vh;
+➕        backgroung-image: url("../img/hero-small.jpeg");
+➕        background-size: cover;
+➕         background-position: center;
 
- !! Problemy ze wsparciem np: Safarii !!
-+         background-attachment: fixed;
+ ❗❗ Problemy ze wsparciem np: Safarii ❗❗
+➕        background-attachment: fixed;
   
-+          color: $white;
-+         z-index: 0;    #CIEŃ(1)
-+          h1 {
-+             text-transform: uppercase;
-+         }
-+      }
+➕         color: $white;
+➕        z-index: 0;    #CIEŃ(1)
+➕         h1 {
+➕             text-transform: uppercase;
+         }
+      }
 
-+     .hero-shadow {
-+        position: absolute;
-+        top: 0;
-+        left: 0;
-+        width: 100%;
-+        height: 100%;
-+        background-color: rgb(0,0,0,.8);
-+        z-index: -5;   #CIEŃ(1)
-+     }
+➕    .hero-shadow {
+➕       position: absolute;
+➕       top: 0;
+➕       left: 0;
+➕       width: 100%;
+➕       height: 100%;
+➕        background-color: rgb(0,0,0,.8);
+➕        z-index: -5;   #CIEŃ(1)
+     }
 WYŚRODKOWANIE TEKSTU NA STRONIE (domyślnie jest flex-direction row ⚠️)
-+     .hero-text {
-+        display: flex;
-+        justyfy-content: center;
-+        align-items: center;
-+        flex-direction: column    #Trzeba dodać by wyśrodkować tekst
-+        height: 100%;
+➕    .hero-text {
+➕       display: flex;
+➕       justyfy-content: center;
+➕       align-items: center;
+➕       flex-direction: column    #Trzeba dodać by wyśrodkować tekst
+➕        height: 100%;
       }
 ZAMIANA KOLORU GAMERS
-+        .blue-text {
-+        color: $main.color;
-+    }
+➕        .blue-text {
+➕        color: $main.color;
+    }
 
 ===
 JS (script.js)
@@ -115,5 +116,8 @@ JS (script.js)
 
 
 ===
-MOBILE - CORECT 📱iPhone 5/SE ✅ Samsung Galaxy S8+📱✅ iPadPro📱✅ 
+MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung Galaxy S20 Ultra✅
 ===
+HTML
+....
+➕  dodaję text-center      <div class="hero-text text-center">
