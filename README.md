@@ -123,3 +123,15 @@ MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung 
 HTML
 ....
 +      dodaję text-center      <div class="hero-text text-center">  🔶 Lub w SCSS dodaje text-align: center   wyjdzie na to samo 🔶 
++     dodaję padding 2 kategorii         <div class="hero-text text-center p-2">
+SCSS
+....
++     @media (min-width: 768px) {
++	    .hero-text {
++		    h1 {
++			    font-size: 42px;
++		    }
++		
++		p{
++			font-size: 20px;
++		}
