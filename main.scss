@@ -11,7 +11,7 @@ body {
 	background-color: #333;
 }
 
-.blue-text{
+.blue-text {
 	color: $main-color;
 }
 
@@ -74,20 +74,31 @@ header.hero-img {
 		height: 100%;
 	}
 
-	.fa-chevron-down{
+	.fa-chevron-down {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
 		bottom: 20px;
 		font-size: 30px;
 		color: $white;
-	 }
+	}
 }
 
+@media (min-width: 768px) {
+	.hero-text {
+		h1 {
+			font-size: 42px;
+		}
 
+		p{
+			font-size: 20px;
+		}
+	}
+}
 
 @media (min-width: 1200px) {
 	header.hero-img {
 		background-image: url('../img/hero-big.jpeg');
 	}
 }
+
