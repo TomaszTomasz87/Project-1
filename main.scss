@@ -11,12 +11,13 @@ body {
 	background-color: #333;
 }
 
-.blue-text {
+.blue-text{
 	color: $main-color;
 }
 
 nav {
 	text-transform: uppercase;
+	z-index: 5;
 
 	.navbar-toggler {
 		padding: 10px 15px;
@@ -71,5 +72,22 @@ header.hero-img {
 		align-items: center;
 		flex-direction: column;
 		height: 100%;
+	}
+
+	.fa-chevron-down{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+		font-size: 30px;
+		color: $white;
+	 }
+}
+
+
+
+@media (min-width: 1200px) {
+	header.hero-img {
+		background-image: url('../img/hero-big.jpeg');
 	}
 }
