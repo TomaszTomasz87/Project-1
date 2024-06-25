@@ -63,7 +63,8 @@ CSS(Scss) (main.scss)(_colors.scss)
                     }
 _colors.scss
 +         $main-color: #039dff;
-         $white-color: #fff;
+          $white-color: #fff;
+          $light-grey;
 
 main.scss
 ---
@@ -218,3 +219,29 @@ AUTOMATYCZNE ZAMYKANIE...
 + 		dodaję nasłuchiwanie na clicka w pętli na wszystkie linki ✴️
 + 		allNavItems.forEach(item => item.addEventListener('click', () => {navList.classList.remove('show')	
 		}))
+❇️ SEKCJA - TWORZYMY GRY NA PLATFORMY ❇️ HTML
++ 		 <section class="aboutus-hero py-5">
+         	   <div class="aboutus-shadow"></div>
+
+          	  <div class="cointener"></div>
+          	      <h2  class="section-title">tworzymy gry na platformy</h2>
+	                <div class="underline"></div>
+     		   </section>
+❇️ SEKCJA - TWORZYMY GRY NA PLATFORMY ❇️ SCSS 
++		.aboutus-hero {
+		position: relative;
+		background-image: url(../img/pc-small.jpg);
+		background-size: cover;
+		background-position: center;
+		color: $light-grey;
+		z-index: 0;
++		.aboutus-shadow {
+  		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -5;
+		}
+             } 
