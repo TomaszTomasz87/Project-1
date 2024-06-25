@@ -116,8 +116,8 @@ ZAMIANA KOLORU GAMERS
 JS (script.js)
 ---
 +     dodaje do index.html 🔶 <script src="./js/script.js"></script> 🔶
-+     Zamiast 'click' daję DOMContentLoader'            🔶 document.addEventListener('DOMContentLoaded', function () {🔶
-+    	  trzyma moją nawigację                            🔶    const nav = document.querySelector('.navbar') 🔶
++     Zamiast 'click' daję DOMContentLoader'    🔶 document.addEventListener('DOMContentLoaded', function () {🔶
++    	  trzyma moją nawigację        🔶    const nav = document.querySelector('.navbar') 🔶
 scss
 +     dodaję .shadow-bg {
 +    	background-color: rgba(0,0,0,.9);
@@ -127,8 +127,8 @@ MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung 
 ===
 HTML
 ....
-+      dodaję text-center      <div class="hero-text text-center">  🔶 Lub w SCSS dodaje text-align: center   wyjdzie na to samo 🔶 
-+     dodaję padding 2 kategorii         <div class="hero-text text-center p-2">
++      dodaję text-center    <div class="hero-text text-center">  🔶 Lub w SCSS dodaje text-align: center   wyjdzie na to samo 🔶 
++     dodaję padding 2 kategorii  🔶  <div class="hero-text text-center p-2">
 SCSS
 ....
 +     @media (min-width: 768px) {
@@ -165,9 +165,23 @@ Scss
         }
 +    KRESKA POD NAPISEM
 +        .underline {
-	    margin: 0 auto 40px;
++     	W elemencie blokowym  🔶 margin: 0 auto 40px;🔶
 	    width: 60px;
 	    height: 4px;
 	    background-color: $main-color;
         }
++		.aboutus {
+		i {
+		margin-top: 20px;
+		font-size: 30px;
+		}
 
++		.aboutus-card-title {
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+
++		.aboutus-card-text {
+			font-size: 14px;
+		}
+		}
