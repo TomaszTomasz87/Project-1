@@ -151,13 +151,18 @@ MAIN index.html
 +      <div class="underline"></div>
 +         🔵 <div class="row"> 🔵
 +            🔵 <div class="col-sm-6 col-md-4 text-center"> 🔵
-  ikony z Font Awesome
+  ⚪ ikony z Font Awesome ⚪
 +        <p><i class="fa-solid fa-mobile-screen"></i></p>
 +        <p><i class="fas fa-desktop"></i></p>
 +        <p><i class="fas fa-file-code"></i></p>
 +        <p><i class="fas fa-paw"></i></p>
 +         <p><i class="fas fa-hamburger"></i></p>
 +          <p><i class="fas fa-glass-cheers"></i></p>
++         <i class="fa-solid fa-bars"></i>
++          <i class="fa-solid fa-headset"></i>
++      		<i class="fa-brands fa-steam"></i>
++  		<i class="fa-brands fa-playstation"></i>
++  		<i class="fa-brands fa-xbox"></i>
 Scss
 +    POWIĘKSZENIE TEKSTU I WYŚRODKOWANIE
 +        .section-title {
@@ -244,4 +249,21 @@ AUTOMATYCZNE ZAMYKANIE...
 		background-color: rgba(0, 0, 0, 0.7);
 		z-index: -5;
 		}
-             } 
+             }
+ZMIANA POZYCJONOWANIA FLEX NA ❇️ SEKCJI - TWORZYMY GRY NA PLATFORMY ❇️
++		col-sm-6 col-md-4
+  ZAMIENIAM NA
++		col-lg-4
++	  <div class="col-lg-4 text-center aboutus-hero-item">
++	  <p class="aboutus-hero-title mb-1">
+SCSS
++ 		.aboutus-hero-item {
+			margin: 10px 0;
+
++		i{
+			font-size: 36px;
+		}
++		.aboutus-hero-title {
+			font-size: -24px;
+			}
+		}
