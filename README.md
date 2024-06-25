@@ -210,3 +210,11 @@ PRZYDATNA WŁĄŚCIWOŚĆ DO SCROLOWANIA NA PC ✳️
 			scroll-padding-top: 72px ;
 			}
 		}
+ZAMYKANIE NAWIGACJI PO NACIŚNIĘCIU WYBORU LUB INNEGO MIEJSCA NA TELEGONIE ✴️ JS ✴️
+AUTOMATYCZNE ZAMYKANIE...
++ Badam nawigację w F12
++ 		dodaję do js. wszystkie linki ✴️	const allNavItems = document.querySelectorAll('.nav-link')
++ 		trzeba dodać by show się aktywowało ✴️ const navList = document.querySelector('.navbar-collapsa')
++ 		dodaję nasłuchiwanie na clicka w pętli na wszystkie linki ✴️
++ 		allNavItems.forEach(item => item.addEventListener('click', () => {navList.classList.remove('show')	
+		}))
