@@ -203,6 +203,7 @@ PRZYDATNA WŁĄŚCIWOŚĆ DO SCROLOWANIA NA TELEFONY ✳️
 		scroll-padding-top: 74px ;
 		}
 ⚠️ F12 - po najechaniu na pasek nawigacji widzę jakie parametry i jaki styl ma pasek w tym wypadku 74px ⚠️
+
 PRZYDATNA WŁĄŚCIWOŚĆ DO SCROLOWANIA NA PC ✳️
 +		 @media (min-width: 992px){
 			html {
