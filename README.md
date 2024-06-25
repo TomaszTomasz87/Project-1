@@ -33,7 +33,7 @@ https://getbootstrap.com/docs/5.3/components/navbar/
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
 ---
-⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  
+⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
 
 ===
 HTML (index.html)
