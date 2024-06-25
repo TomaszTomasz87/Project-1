@@ -52,65 +52,65 @@ https://fontawesome.com/icons/bars?f=classic&s=solid
 CSS(Scss) (main.scss)(_colors.scss)
 ---
 +                     nav {
-+                            text-transform : uppercase;
-+                       .nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-brand, .fa-bars {
- +                           color: #fff;
+                            text-transform : uppercase;
+                       .nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-brand, .fa-bars {
+                            color: #fff;
                     
 +                        .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-+                         color: #039dff;
-+                         z-index:5;       #Zapobiega przykrywaniu nawigacji
-+                        }
-+                    }
+                         color: #039dff;
+                         z-index:5;       #Zapobiega przykrywaniu nawigacji
+                        }
+                    }
 _colors.scss
 +         $main-color: #039dff;
-+         $white-color: #fff;
+         $white-color: #fff;
 
 main.scss
 ---
 +      @use './colors' as *;
-+         color: $white-color;
-+          color: $main-color;
+         color: $white-color;
+          color: $main-color;
 ---
 HEADER
 ---
 +    header.hero-img {
-+        position:relative;
-+        height:100vh;
-+        backgroung-image: url("../img/hero-small.jpeg");
-+        background-size: cover;
-+         background-position: center;
++       position:relative;
+        height:100vh;
+        backgroung-image: url("../img/hero-small.jpeg");
+        background-size: cover;
+         background-position: center;
 
  ❗❗ Problemy ze wsparciem np: Safarii ❗❗
 +        background-attachment: fixed;
   
 +         color: $white;
-+        z-index: 0;    #CIEŃ(1)
-+         h1 {
-+             text-transform: uppercase;
-+         }
-+      }
+        z-index: 0;    #CIEŃ(1)
+         h1 {
+             text-transform: uppercase;
+         }
+      }
 
 +    .hero-shadow {
 +       position: absolute;
-+       top: 0;
-+       left: 0;
-+       width: 100%;
-+       height: 100%;
-+        background-color: rgb(0,0,0,.8);
-+        z-index: -5;   #CIEŃ(1)
-+        }
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+        background-color: rgb(0,0,0,.8);
+        z-index: -5;   #CIEŃ(1)
+        }
 WYŚRODKOWANIE TEKSTU NA STRONIE (domyślnie jest flex-direction row ⚠️)
 +    .hero-text {
 +       display: flex;
-+       justyfy-content: center;
-+       align-items: center;
-+       flex-direction: column    #Trzeba dodać by wyśrodkować tekst
-+        height: 100%;
-      }
+        justyfy-content: center;
+        align-items: center;
+        flex-direction: column    #Trzeba dodać by wyśrodkować tekst
+         height: 100%;
+       }
 ZAMIANA KOLORU GAMERS
 +        .blue-text {
-+        color: $main.color;
-+       }
+        color: $main.color;
+       }
 
 ===
 JS (script.js)
@@ -120,8 +120,8 @@ JS (script.js)
 +    	  trzyma moją nawigację        🔶    const nav = document.querySelector('.navbar') 🔶
 scss
 +     dodaję .shadow-bg {
-+    	background-color: rgba(0,0,0,.9);
-+        }
+    	background-color: rgba(0,0,0,.9);
+        }
 ===
 MOBILE - CORECT 📱 = iPhone 5/SE ✅ Samsung Galaxy S8+✅ iPadPro✅ Samsung Galaxy S20 Ultra✅
 ===
@@ -132,14 +132,14 @@ HTML
 SCSS
 ....
 +     @media (min-width: 768px) {
-+	    .hero-text {
-+		    h1 {
-+			    font-size: 42px;
-+		    }
-+		
-+		p{
-+			font-size: 20px;
-+		}
+	    .hero-text {
+		    h1 {
+			    font-size: 42px;
+		    }
+		
+		p{
+			font-size: 20px;
+		}
 MAIN index.html
 ....
 +     id = lepiej jest używać w JS lub do kotwiczenia elementów na stronie niż stylowaniu CSS 🔴 id zjada pamięć 🔴
