@@ -15,8 +15,25 @@ body {
 	color: $main-color;
 }
 
+.shadow-bg {
+	background-color: rgba(0, 0, 0,.8);
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: $main-color;
+}
+
 nav {
 	text-transform: uppercase;
+	transition: 0.6s;
 	z-index: 5;
 
 	.navbar-toggler {
@@ -84,13 +101,29 @@ header.hero-img {
 	}
 }
 
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+}
+
 @media (min-width: 768px) {
 	.hero-text {
 		h1 {
 			font-size: 42px;
 		}
 
-		p{
+		p {
 			font-size: 20px;
 		}
 	}
@@ -101,4 +134,3 @@ header.hero-img {
 		background-image: url('../img/hero-big.jpeg');
 	}
 }
-
