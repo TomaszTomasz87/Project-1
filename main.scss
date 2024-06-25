@@ -5,7 +5,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+html {
+	scroll-padding-top: 74px;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #333;
@@ -16,7 +18,7 @@ body {
 }
 
 .shadow-bg {
-	background-color: rgba(0, 0, 0,.8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .section-title {
@@ -27,13 +29,13 @@ body {
 .underline {
 	margin: 0 auto 40px;
 	width: 60px;
-	height: 4px;
+	height: 3px;
 	background-color: $main-color;
 }
 
 nav {
 	text-transform: uppercase;
-	transition: 0.6s;
+	transition: background-color 0.6s;
 	z-index: 5;
 
 	.navbar-toggler {
@@ -115,6 +117,14 @@ header.hero-img {
 	.aboutus-card-text {
 		font-size: 14px;
 	}
+
+	.aboutus-hover {
+		transition: color 0.3s;
+	}
+
+	.aboutus-hover:hover {
+		color: $main-color;
+	}
 }
 
 @media (min-width: 768px) {
@@ -126,6 +136,12 @@ header.hero-img {
 		p {
 			font-size: 20px;
 		}
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
 	}
 }
 
