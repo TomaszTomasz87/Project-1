@@ -140,5 +140,13 @@ SCSS
 +		p{
 +			font-size: 20px;
 +		}
+MAIN
+....
++     id = lepiej jest używać w JS lub do kotwiczenia elementów na stronie niż stylowaniu CSS 🔴 id zjada pamięć 🔴
 
++     Dodajemy class i podpinamy z id na 🔶  <section id="aboutus" class="aboutus bg-light py-5 ">
++      <div class="container">
++      <h2 class="section-title">o nas</h2>
++      <div class="underline"></div>
++      <div class="row">
 
