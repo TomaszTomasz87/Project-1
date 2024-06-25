@@ -35,6 +35,11 @@ https://getbootstrap.com/docs/5.3/components/navbar/
 ---
 Captions
 https://getbootstrap.com/docs/5.3/components/carousel/#captions/
+---
+Card groups
+https://getbootstrap.com/docs/5.3/components/card/
+---
+
 ⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
 
 ===
