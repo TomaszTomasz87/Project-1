@@ -261,9 +261,14 @@ SCSS
 			margin: 10px 0;
 
 +		i{
++		
 			font-size: 36px;
 		}
 +		.aboutus-hero-title {
 			font-size: -24px;
 			}
 		}
+
++ 		.aboutus-hero {
+		background-image: url('../img/pc-big.jpg');
+	}
