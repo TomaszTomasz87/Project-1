@@ -140,13 +140,34 @@ SCSS
 +		p{
 +			font-size: 20px;
 +		}
-MAIN
+MAIN index.html
 ....
 +     id = lepiej jest używać w JS lub do kotwiczenia elementów na stronie niż stylowaniu CSS 🔴 id zjada pamięć 🔴
 
 +     Dodajemy class i podpinamy z id na 🔶  <section id="aboutus" class="aboutus bg-light py-5 ">
-+      <div class="container">
++     pozycjonowanie kontenera na stronie   🔶   <div class="container">
 +      <h2 class="section-title">o nas</h2>
 +      <div class="underline"></div>
-+      <div class="row">
++         🔵 <div class="row"> 🔵
++            🔵 <div class="col-sm-6 col-md-4 text-center"> 🔵
+  ikony z Font Awesome
++        <p><i class="fa-solid fa-mobile-screen"></i></p>
++        <p><i class="fas fa-desktop"></i></p>
++        <p><i class="fas fa-file-code"></i></p>
++        <p><i class="fas fa-paw"></i></p>
++         <p><i class="fas fa-hamburger"></i></p>
++          <p><i class="fas fa-glass-cheers"></i></p>
+Scss
++    POWIĘKSZENIE TEKSTU I WYŚRODKOWANIE
++        .section-title {
+	    text-align: center;
+    	text-transform: uppercase;
+        }
++    KRESKA POD NAPISEM
++        .underline {
+	    margin: 0 auto 40px;
+	    width: 60px;
+	    height: 4px;
+	    background-color: $main-color;
+        }
 
