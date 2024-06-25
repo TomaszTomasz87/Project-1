@@ -185,3 +185,27 @@ Scss
 			font-size: 14px;
 		}
 		}
+ABOUT - PODŚWIETLENIE IKON NA BŁĘKITNY 🔵 :hover 🔵
++		 <div class="col-sm-6 col-md-4 text-center 🔹 aboutus-hover🔹">
+		 
++		.aboutus-hover{
+			transition: color .3s;
+			}
++		 .aboutus-hover:hover {
+		color: $main-color;
+		
+			}
+PRZYDATNA WŁĄŚCIWOŚĆ DO SCROLOWANIA NA TELEFONY ✳️
+
++ SCSS
++	dodajemy
++		html {
+		scroll-padding-top: 74px ;
+		}
+⚠️ F12 - po najechaniu na pasek nawigacji widzę jakie parametry i jaki styl ma pasek w tym wypadku 74px ⚠️
+PRZYDATNA WŁĄŚCIWOŚĆ DO SCROLOWANIA NA PC ✳️
++		 @media (min-width: 992px){
+			html {
+			scroll-padding-top: 72px ;
+			}
+		}
