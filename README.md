@@ -33,6 +33,8 @@ https://getbootstrap.com/docs/5.3/components/navbar/
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
 ---
+Captions
+https://getbootstrap.com/docs/5.3/components/carousel/#captions/
 ⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
 
 ===
@@ -272,3 +274,8 @@ SCSS
 + 		.aboutus-hero {
 		background-image: url('../img/pc-big.jpg');
 	}
+⬜ PORTFOLIO ⬜
++ 		.portfolio {
+			.carousel-item {
+				height: 600px;
+			}
