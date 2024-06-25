@@ -126,6 +126,33 @@ header.hero-img {
 		color: $main-color;
 	}
 }
+.aboutus-hero {
+	position: relative;
+	background-image: url(../img/pc-small.jpg);
+	background-size: cover;
+	background-position: center;
+	color: $light-grey;
+	z-index: 0;
+	.aboutus-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -5;
+	}
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 36px;
+		}
+		.aboutus-hero-title {
+			font-size: -24px;
+		}
+	}
+}
 
 @media (min-width: 768px) {
 	.hero-text {
