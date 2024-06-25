@@ -279,3 +279,6 @@ SCSS
 			.carousel-item {
 				height: 600px;
 			}
++		.carousel-indicators {
+			padding-bottom: 20px;
+			}
