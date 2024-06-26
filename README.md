@@ -179,6 +179,9 @@ MAIN index.html
 +  		<i class="fas fa-mobile-alt"></i>
 +  		<i class="fas fa-desktop"></i>
 +	      <i class="fas fa-gamepad"></i>
++	  <i class="fab fa-facebook-f"></i>
++	  <i class="fab fa-twitter"></i>
++	  <i class="fab fa-linkedin-in">
 Scss
 +    POWIĘKSZENIE TEKSTU I WYŚRODKOWANIE
 +        .section-title {
