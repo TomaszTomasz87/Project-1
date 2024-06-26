@@ -349,4 +349,45 @@ scss - PRICE BOX 💟💟💟
 			text-decoration: none;
 		}
 			}
- 		
+Sekcja Zespół
+Card groups (niższy) ⚠️ 
++		https://getbootstrap.com/docs/5.3/components/card/
++    	<div class="card-footer d-flex justify-content-around">
+
++ 		.team-shadow {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.7);
+			z-index: -5;
+			}
+
++		.card {
+			transition: scale 0.3s;
+			img {
+				height: 300px;
+				object-fit: cover;
+			}
+
+			i {
+				padding: 10px;
+			}
+
++			.card-body {
+				height: 160px;
+			}
+		}
+
++		.card:hover {
+			scale: 0.96;
+		}
+
+
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
