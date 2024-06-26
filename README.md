@@ -290,3 +290,19 @@ SCSS
 +		.carousel-indicators {
 			padding-bottom: 20px;
 			}
+ 💲 CENA  💲
++		 <section id="prices" class="prices py-5 bg-light">
+          		  <h2 class="section-title">ceny</h2>
+          		  <div class="underline"></div>
+
+ +           <div class="container">
+                <div class="price-wrap row text-center justify-content-center">
+                    <div class="col-md-4 col-xl-4">
+                        <div class="price-box">
+
+scss 
++ 		.prices {
+			.price-box {
+				margin: 20px;
+			}
+		}
