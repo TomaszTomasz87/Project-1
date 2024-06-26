@@ -167,9 +167,12 @@ MAIN index.html
 +          <p><i class="fas fa-glass-cheers"></i></p>
 +         <i class="fa-solid fa-bars"></i>
 +          <i class="fa-solid fa-headset"></i>
-+      		<i class="fa-brands fa-steam"></i>
++ 		<i class="fa-brands fa-steam"></i>
 +  		<i class="fa-brands fa-playstation"></i>
 +  		<i class="fa-brands fa-xbox"></i>
++  		<i class="fas fa-mobile-alt"></i>
++  		<i class="fas fa-desktop"></i>
++	      <i class="fas fa-gamepad"></i>
 Scss
 +    POWIĘKSZENIE TEKSTU I WYŚRODKOWANIE
 +        .section-title {
