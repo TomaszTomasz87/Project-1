@@ -458,3 +458,68 @@ SCSS
 			font-size: 13px;
 			text-transform: uppercase;
 		}
+👬👬 KONTAKT 👬👬
+html🔆
++     <section id="contact" class="contact py-5">
+
+            <h2 class="section-title">kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+
+                <div class="row text-center contact-us">
++                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+css🔆
++		 .contact {
+			position: relative;
+			background-image: url('../img/contact-bg.jpeg');
+			background-position: bottom;
+			background-attachment: fixed;
+			background-size: cover;
+			z-index: 0;
+
++		.section-title {
+			color: $light-gray;
+		}
+
++		.underline {
+		background-color: $light-gray;
+		}
+
++		.contact-shadow {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgb(0, 9, 27, 0.85);
+			z-index: -5;
+		}
+
++		.contact-us {
+			display: flex;
+			align-items: center;
+			color: $white;
+		
++		.contact-item {
+			margin: 30px 0;		
+			
+			h3 {
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+		}
+
++		.social-media {
+			font-size: 26px;
+
+			a {
+				padding: 10px;
+				color: $white;
+				transition: color .3s;
+			}
+
+			a:hover{
+				color: $main-color;
+			}
