@@ -389,9 +389,33 @@ Card groups (niższy) ⚠️
 		}
 
 
-	.card-title {
-		margin-bottom: 20px;
-		text-align: center;
-		text-transform: uppercase;
-	}
-}
++		.card-title {
+			margin-bottom: 20px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+Sticky index.html ✴️
++ <!-- team -->
+            <div class="container">
+                <div class="card-group team-carousel">
+Slick.js ✴️
++		$('.team-carousel').slick({
++			arrows: false,
++			autoplay: true,
+			mobileFirst: true,
+ 			slidesToShow: 1,
+  			slidesToScroll: 1,
+ 			responsive: [
+
+				{
+ 			breakpoint: 768,
+ 			settingd: {slideToShow: 2,}
+ 			 },
+		        {
+		            breakpoint: 992,
+		            settings: {slidesToShow: 3,}
+		        }
+		
+ 		    ] 			
+  		})  ;
