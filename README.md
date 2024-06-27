@@ -186,6 +186,12 @@ MAIN index.html
 +	  <i class="fab fa-facebook-f"></i>
 +	  <i class="fab fa-twitter"></i>
 +	  <i class="fab fa-linkedin-in">
++	   <i class="fas fa-thumbs-up"></i>
++	    <i class="fas fa-trophy"></i>
++		<i class="fas fa-user-friends"></i>
++		<i class="far fa-building"></i>
++		<i class="fas fa-dice"></i>
++		<i class="fas fa-share-alt"></i>
 Scss
 +    POWIĘKSZENIE TEKSTU I WYŚRODKOWANIE
 +        .section-title {
