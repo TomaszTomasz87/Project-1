@@ -399,6 +399,10 @@ Sticky index.html ✴️
 + <!-- team -->
             <div class="container">
                 <div class="card-group team-carousel">
+Sticky scss ✴️
++		 .card-body {
+		height: 160px;
+		}
 Slick.js ✴️
 +		$('.team-carousel').slick({
 +			arrows: false,
