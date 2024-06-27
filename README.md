@@ -429,3 +429,32 @@ Slick.js ✴️
 		
  		    ] 			
   		})  ;
+ 🗽 OSIĄGNIĘCIA 🗽 
+ HTML dodaję
+ +         <section class="achievements py-5" id="achievements">
+            <h2 class="section-title">osiągnięcia</h2>
+            <div class="underline"></div>
+
+            <div class="container">
++                <div class="row text-center achievements-list">
+                    <div class="col-md-6 col-lg-4 col-xl-2">
+                        <i class="fas fa-thumbs-up"></i>
+                        <p class="achievement-number">100%</p>
+                        <p class="achievement-text">XYZ/p>
+SCSS
++		.achievements-list {
+			padding: 20px 0;
+		}
++		.achievements-list i {
+			padding: 10px;
+			font-size: 48px;
+			color: #fff;
+			text-shadow: 0 0 5px rgb(0, 0, 0, 0.8);
+		}
++		.achievements-list .achievement-number {
+			font-size: 22px;
+		}
++		.achievements-list .achievement-text {
+			font-size: 13px;
+			text-transform: uppercase;
+		}
