@@ -63,6 +63,10 @@ CSS ⬆️
 + 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 JS ⬇️
 +		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+HTML 🔶
++		<script>
+		  AOS.init();
+		</script>
 ===
 HTML (index.html)
 ---
