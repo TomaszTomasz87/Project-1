@@ -34,7 +34,7 @@ JS ⬇️
 
 ---
 Navbar
-https://getbootstrap.com/docs/5.3/components/navbar/
++  https://getbootstrap.com/docs/5.3/components/navbar/
 +     position-sticky top-0
 +     navbar-nav ms-auto
 -     fluid
@@ -44,14 +44,16 @@ https://getbootstrap.com/docs/5.3/components/navbar/
                     </li>
 ---
 Captions
-https://getbootstrap.com/docs/5.3/components/carousel/#captions/
++ https://getbootstrap.com/docs/5.3/components/carousel/#captions/
 ---
 Card groups
-https://getbootstrap.com/docs/5.3/components/card/
++ https://getbootstrap.com/docs/5.3/components/card/
 ---
 
 ⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
-
+---
+Animista
++ https://animista.net/
 ===
 HTML (index.html)
 ---
