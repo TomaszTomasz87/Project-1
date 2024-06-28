@@ -49,6 +49,8 @@ Captions
 Card groups
 + https://getbootstrap.com/docs/5.3/components/card/
 ---
+Scrollspy
++ https://getbootstrap.com/docs/5.3/components/scrollspy/
 
 ⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
 ---
@@ -593,4 +595,7 @@ AOS
 +            <h1 data-aos="fade-up "data-aos-delay="200">witajcie w pro<span class="blue-text">gamers</span></h1>
 +            <p data-aos="fade-up  "data-aos-delay="400"></p>>W miejscu, gdzie gry tworzymy z pasją</p>
 +            <a data-aos="fade-up  "data-aos-delay="600"></a>href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
-
+Bootstrap - Scrollspy
+HTML
++ 		<body data-bs-spy="scroll" data-bs-target="#navId">
+   		 <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
