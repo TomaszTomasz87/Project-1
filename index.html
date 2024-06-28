@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -11,16 +11,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/1d23864fb5.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/1d23864fb5.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+<body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
         <div class="container">
             <a class="navbar-brand" href="#"><i class="fa-sharp fa-solid fa-headset"></i> pro<span
                     class="blue-text">gamers</span></a>
@@ -44,18 +44,17 @@
 
     <header class="hero-img" id="home">
         <div class="hero-text text-center p-2">
-            <h1 data-aos="fade-up "data-aos-delay="200">witajcie w pro<span class="blue-text">gamers</span></h1>
-            <p data-aos="fade-up  "data-aos-delay="400"></p>>W miejscu, gdzie gry tworzymy z pasją</p>
-            <a data-aos="fade-up  "data-aos-delay="600"></a>href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
+            <h1 data-aos="fade-up" data-aos-delay="200">witajcie w pro<span class="blue-text">gamers</span></h1>
+            <p data-aos="fade-up" data-aos-delay="400">W miejscu, gdzie gry tworzymy z pasją</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#aboutus"
+                class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
         </div>
         <div class="hero-shadow"></div>
 
         <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
     </header>
 
-
     <main>
-
         <section id="aboutus" class="aboutus bg-light py-5">
 
             <div class="container">
@@ -64,32 +63,34 @@
 
                 <div class="row">
 
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-mobile-screen"></i></p>
-                        <p class="aboutus-card-title mb-1">mobile gaming</p>
-                        <p class="aboutus-card-text">Tworzymy gry na urządzenia mobilne!</p>
+                    <div data-aos="zoom-in" data-aos-delay="100" class="col-sm-6 col-md-4">
+                        <div class=" text-center aboutus-hover" >
+                            <p><i class="fa-solid fa-mobile-screen"></i></p>
+                            <p class="aboutus-card-title mb-1">mobile gaming</p>
+                            <p class="aboutus-card-text">Tworzymy gry na urządzenia mobilne!</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="200">
                         <p><i class="fas fa-desktop"></i></p>
                         <p class="aboutus-card-title mb-1">desktop gaming</p>
                         <p class="aboutus-card-text">Tworzymy gry na PC!</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="300">
                         <p><i class="fas fa-file-code"></i></p>
                         <p class="aboutus-card-title mb-1">najwyższe standardy</p>
                         <p class="aboutus-card-text">Zachowujemy najwyższe standardy podczas pisania kodu.</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="400">
                         <p><i class="fas fa-paw"></i></p>
                         <p class="aboutus-card-title mb-1">kochamy zwierzęta!</p>
                         <p class="aboutus-card-text">Wszystkie nasze gry są bezpieczne dla środowiska. 🙂</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="500">
                         <p><i class="fas fa-hamburger"></i></p>
                         <p class="aboutus-card-title mb-1">lubimy dobre jedzenie</p>
                         <p class="aboutus-card-text">Lubimy dobrze zjeść przed przystąpieniem do naszych zadań.</p>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" data-aos-delay="600">
                         <p><i class="fas fa-glass-cheers"></i></p>
                         <p class="aboutus-card-title mb-1">świetne relacje</p>
                         <p class="aboutus-card-text">Zachowujemy świetne relacje z naszymi klientami!</p>
@@ -109,17 +110,17 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="700">
                         <p class="aboutus-hero-title mb-1">PC</p>
                         <p><i class="fa-brands fa-steam"></i></p>
                         <p class="aboutus-hero-text">Graj ze znajomymi na swoim blaszaku!</p>
                     </div>
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="800">
                         <p class="aboutus-hero-title mb-1">PlayStation</p>
                         <p><i class="fa-brands fa-playstation"></i></p>
                         <p class="aboutus-hero-text">Gry świetnie prezentują się na konsoli od Sony!</p>
                     </div>
-                    <div class="col-lg-4 text-center aboutus-hero-item">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="900">
                         <p class="aboutus-hero-title mb-1">Xbox</p>
                         <p><i class="fa-brands fa-xbox"></i></p>
                         <p class="aboutus-hero-text">Fani Xboxa spędzą z nami mnóstwo godzin!</p>
@@ -331,32 +332,32 @@
             <div class="container">
 
                 <div class="row text-center achievements-list">
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="100">
                         <i class="fas fa-thumbs-up"></i>
                         <p class="achievement-number">100%</p>
                         <p class="achievement-text">zadowolonych klientów</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="50">
                         <i class="fas fa-trophy"></i>
                         <p class="achievement-number">37</p>
                         <p class="achievement-text">zdobytych nagród</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="200">
                         <i class="fas fa-user-friends"></i>
                         <p class="achievement-number">143</p>
                         <p class="achievement-text">pracowników</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="250">
                         <i class="far fa-building"></i>
                         <p class="achievement-number">7</p>
                         <p class="achievement-text">nowoczesnych biur</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="100">
                         <i class="fas fa-dice"></i>
                         <p class="achievement-number">58</p>
                         <p class="achievement-text">stworzonych gier</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div class="col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="300">
                         <i class="fas fa-share-alt"></i>
                         <p class="achievement-number">80.000</p>
                         <p class="achievement-text">fanów w social media</p>
@@ -401,55 +402,31 @@
                 </div>
             </div>
             <div class="contact-shadow"></div>
-
         </section>
-
     </main>
 
     <footer class="bg-dark text-light py-4 text-center">
-        <p class="mb-0">&copy;2024 | ProGamers</p>
-        <div class="container"></div>
+        <p class="mb-0"> &copy; 2045 | ProGamers </p>
     </footer>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <script>
-        AOS.init({
-        startEvent: 'DOMContentLoaded',
-        offset:200,
-        once: true,
-    });
-    </script>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-
-    <!-- slicky -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true,
+        });
+    </script>
     <script src="./js/slick.js"></script>
     <script src="./js/script.js"></script>
 </body>
