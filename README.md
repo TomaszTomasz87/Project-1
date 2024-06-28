@@ -64,9 +64,13 @@ CSS ⬆️
 JS ⬇️
 +		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 HTML 🔶
-+		<script>
-		  AOS.init();
-		</script>
++		    <script>
+		        AOS.init({
+		        startEvent: 'DOMContentLoaded',
+		        offset:200,
+		        once: true,
+		    });
+		    </script>
 ===
 HTML (index.html)
 ---
@@ -581,4 +585,9 @@ _animations.scss
 		      opacity: 1;
 		    }
 		  }
-		 		
+AOS
+
++            <h1 data-aos="fade-up "data-aos-delay="200">witajcie w pro<span class="blue-text">gamers</span></h1>
++            <p data-aos="fade-up  "data-aos-delay="400"></p>>W miejscu, gdzie gry tworzymy z pasją</p>
++            <a data-aos="fade-up  "data-aos-delay="600"></a>href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
+
