@@ -53,9 +53,16 @@ Card groups
 ⚠️ w Bootstrapie każdy paragraf ma ustawiony automatycznie margines od dołu i trzeba go ręcznie zmieniać ⚠️  🔷 mb-1 🔷
 ---
 Animista
-+ https://animista.net/
-+ https://animista.net/play/attention/bounce
++ 	https://animista.net/
++ 	https://animista.net/play/attention/bounce
+---
 
+AOS - Animate on scroll library
++	https://michalsnik.github.io/aos/
+CSS ⬆️
++ 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+JS ⬇️
++		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 ===
 HTML (index.html)
 ---
@@ -532,3 +539,42 @@ FOOTER 🔲 ©️ ®️ ™️
         <p class="mb-0">&copy;2024 | ProGamers</p>
         <div class="container"></div>
       </footer>
+🎠🎠🎠 ANIMATIONS 🎠🎠🎠
+
+_animations.scss
++		.bounce-top {
+		    display:block;
+			animation: bounce-top 2s infinite both;
+		}
+		
+		@keyframes bounce-top {
+		    0% {
+		      transform: translate(-50%,-45px);
+		      animation-timing-function: ease-in;
+		      opacity: 1;
+		    }
+		    24% {
+		        opacity: 1;
+		    }
+		    40% {
+		        transform: translate(-50%,-24px);
+		      animation-timing-function: ease-in;
+		    }
+		    65% {
+		      transform: translate(-50%,-12px);
+		      animation-timing-function: ease-in;
+		    }
+		    25%,
+		    55%,
+		    75%,
+		    87% {
+		      transform: translate(-50%,0px);
+		      animation-timing-function: ease-out;
+		    }
+		    100% {
+		      transform: translate(-50%,0px);
+		      animation-timing-function: ease-out;
+		      opacity: 1;
+		    }
+		  }
+		 		
