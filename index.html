@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/1d23864fb5.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -44,13 +44,13 @@
 
     <header class="hero-img" id="home">
         <div class="hero-text text-center p-2">
-            <h1>witajcie w pro<span class="blue-text">gamers</span></h1>
-            <p>W miejscu, gdzie gry tworzymy z pasją</p>
-            <a href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
+            <h1 data-aos="fade-up "data-aos-delay="200">witajcie w pro<span class="blue-text">gamers</span></h1>
+            <p data-aos="fade-up  "data-aos-delay="400"></p>>W miejscu, gdzie gry tworzymy z pasją</p>
+            <a data-aos="fade-up  "data-aos-delay="600"></a>href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase">poznaj nas</a>
         </div>
         <div class="hero-shadow"></div>
 
-        <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+        <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
     </header>
 
 
@@ -401,15 +401,15 @@
                 </div>
             </div>
             <div class="contact-shadow"></div>
-           
+
         </section>
 
     </main>
+
     <footer class="bg-dark text-light py-4 text-center">
         <p class="mb-0">&copy;2024 | ProGamers</p>
         <div class="container"></div>
     </footer>
-    
     <br>
     <br>
     <br>
@@ -431,6 +431,13 @@
     <br>
     <br>
 
+    <script>
+        AOS.init({
+        startEvent: 'DOMContentLoaded',
+        offset:200,
+        once: true,
+    });
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -442,7 +449,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/slick.js"></script>
     <script src="./js/script.js"></script>
 </body>
