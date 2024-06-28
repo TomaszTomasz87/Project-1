@@ -59,6 +59,7 @@ Animista
 
 AOS - Animate on scroll library
 ❗❗❗❗ .aboutus-hover {transition: color 0.3s;} blokuje animację w AOS i trzeba go usunąć albo zakomentować❗❗❗❗
+✅✅✅✅ rozwiązanie problemu <div data-aos="zoom-in" data-aos-delay="100"> nadany na rodzica ✅✅✅✅
 +	https://michalsnik.github.io/aos/
 CSS ⬆️
 + 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
